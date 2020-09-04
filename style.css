@@ -1,3 +1,8 @@
+blockquote {
+  font-family: 'Long Cang', cursive;
+  text-align: center;
+}
+
 hr{
   margin: 70px -30px;
   width: 700px;
