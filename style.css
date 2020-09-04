@@ -1,3 +1,5 @@
+/*CSS for Thinkful Portfolio Website */
+
 article > section > blockquote {
   font-family: 'Long Cang', cursive;
   text-align: center;
@@ -6,28 +8,6 @@ article > section > blockquote {
 hr{
   margin: 70px -30px;
   width: 700px;
-}
-
-footer > div > nav{
-  padding: 0;
-  margin: 0;
-  width: 650px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-container{
-  height: 100px;
-  margin: 0;
-  padding: 15px;
-  background-color: #011627;
-  color: #FDFFFC;
-  font-family: 'Shadows Into Light', cursive;
-  display: grid;
-  justify-content: center;
 }
 
 p, li{
@@ -52,9 +32,31 @@ h1{
   font-size: 100px;
 }
 
-.item1{
+.item1{ /* item selected to center the logo image */
   display: grid;
   justify-items: center;
+}
+
+footer > div > nav{
+  padding: 0;
+  margin: 0;
+  width: 650px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container{
+  height: 100px;
+  margin: 0;
+  padding: 15px;
+  background-color: #011627;
+  color: #FDFFFC;
+  font-family: 'Shadows Into Light', cursive;
+  display: grid;
+  justify-content: center;
 }
 
 .main-container{
@@ -82,7 +84,7 @@ a:hover{
 
 a{
   color: #BDEFE9;
-  background-color: #011627;
+  background-color: #011627; /* background color added to make link more visibile */
 }
 
 .nav-container{
