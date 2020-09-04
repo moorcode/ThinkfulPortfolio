@@ -1,4 +1,4 @@
-blockquote {
+article > section > blockquote {
   font-family: 'Long Cang', cursive;
   text-align: center;
 }
